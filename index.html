@@ -8,44 +8,69 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
     <title>Homepage</title>
 </head>
 
 <body>
     <div class="header">
-        <div class="img-div">
-            <h1>Fake Name</h1>
-        </div>
-        <div class="header-about-me">
-            <h2>About me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente, non eveniet quae aspernatur
-                illum libero commodi quidem nostrum dignissimos aliquid recusandae minima odit iure aperiam tempore
-                minus saepe aliquam.</p>
-        </div>
-        <div class="header-sm-links">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-twitter"></i>
+        <div class="header-container">
+
+            <div class="img-div">
+                <h1 class="name-header">Fake Name</h1>
+            </div>
+            <div class="header-content">
+
+                <!-- <div class="header-about-me"> -->
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <!-- </div> -->
+                <div class="header-sm-links">
+                    <i class="fa-brands fa-github fa-2x hvr-grow"></i>
+                    <i class="fa-brands fa-linkedin fa-2x hvr-grow"></i>
+                    <i class="fa-brands fa-twitter fa-2x hvr-grow"></i>
+                </div>
+            </div>
         </div>
     </div>
     <div class="main">
-        <h1>My work</h1>
+        <h1 class="main-h1">My work</h1>
+        <div class="card-container">
+
+        </div>
     </div>
     <div class="footer">
-        <h1>Contact me</h1>
+        <div class="footer-left">
+            <h1>Contact me</h1>
+            <p>Please get in touch if you think our work could be mutually beneficial!</p>
+            <p>1234 Random Road<br> Random Town, California 12345</p>
 
-        <p>Please get in touch if you think our work could be mutually beneficial!</p>
+            <div class="phone-div">
+                <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                <p>555-555-5555</p>
+            </div>
 
-        <p>1234 Random Road Random Town, California 12345</p>
-
-        <div class="phone-div">
-            <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
-            <p>555-555-5555</p>
+            <div class="mail-div">
+                <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                <p>fakeemail@gmail.com</p>
+            </div>
+            <div class="footer-sm-links">
+                <i class="fa-brands fa-github fa-3x sm-footer hvr-grow"></i>
+                <i class="fa-brands fa-linkedin fa-3x sm-footer hvr-grow"></i>
+                <i class="fa-brands fa-twitter fa-3x sm-footer hvr-grow"></i>
+            </div>
         </div>
 
-        <div class="mail-div">
-            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
-            <p>fakeemail@gmail.com</p>
+        <div class="footer-right">
+            <img src="/assets/footerImg.jpeg" class="footer-image" alt="a man at a computer">
+            <!-- <div class="footer-image"></div> -->
         </div>
     </div>
 </body>
